@@ -24,7 +24,7 @@ This feature displays the developer's work experience
 the app was built using an MVVM clean architecture in order to aid scalability and add feature first approach features in the future
 it consists of a single home page with 3 Tabs(portfolio tab, profile tab and resume tab, which features for each has been discussed above).
 ### Folder Structure
-LIB
+```LIB
   l10n
   Home
     ViewModel
@@ -53,6 +53,7 @@ LIB
  maim.dart
  app.dart
  app_scroll_behaviour.dart(page view scroll behaviour on chrome)
+ ```
  
 ### how it works
 on launching the app the user is sent to the home page, with the profile tab displayed first, from where he can navigate to other tabs and access thier features
