@@ -37,8 +37,8 @@ class _MyAppState extends State<MyApp> {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: ((context, child) => MaterialApp(
-         localizationsDelegates: AppLocalizations.localizationsDelegates,
-      supportedLocales: AppLocalizations.supportedLocales,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+    supportedLocales: AppLocalizations.supportedLocales,
             debugShowCheckedModeBanner: false,
             scrollBehavior: AppScrollBehavior(),
             useInheritedMediaQuery: true,
